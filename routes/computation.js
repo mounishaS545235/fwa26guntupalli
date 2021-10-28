@@ -25,7 +25,7 @@ router.get("/", function (req, res, next) {
 
             The value of Math.tan() is ${tan} <br>
             
-            The value of Math.sqrt() is (${sqrt})`);
+            The value of Math.sqrt() is ${sqrt}`);
 });
 
 module.exports = router;
